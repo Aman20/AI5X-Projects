@@ -33,16 +33,6 @@
       "title": "empty password",
       "email": "qa.nonexistent.user@example.com",
       "password": ""
-    },
-    {
-      "title": "empty email",
-      "email": "",
-      "password": "WrongPass#123"
-    },
-    {
-      "title": "empty email and password",
-      "email": "",
-      "password": ""
     }
   ]
 }

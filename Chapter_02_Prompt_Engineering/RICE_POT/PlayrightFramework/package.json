@@ -1,0 +1,26 @@
+{
+  "name": "playrightframework-new",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript login automation framework for Wingify",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "allure:generate": "allure allure2 allure-results --output allure-report --lang en",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "allure": "^3.33.0",
+    "allure-playwright": "^3.14.0",
+    "dotenv": "^18.0.10",
+    "typescript": "^7.0.2"
+  }
+}

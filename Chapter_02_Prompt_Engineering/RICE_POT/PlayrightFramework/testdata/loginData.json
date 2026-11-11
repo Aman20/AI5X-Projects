@@ -1,0 +1,38 @@
+{
+  "routes": {
+    "login": "/#/login",
+    "forgotPassword": "/#/forgot-password"
+  },
+  "api": {
+    "loginPath": "/login",
+    "rejectedStatus": 401
+  },
+  "ui": {
+    "pageTitle": "Login - Wingify",
+    "emailPlaceholder": "Enter email ID",
+    "passwordPlaceholder": "Enter password",
+    "maskedPasswordType": "password",
+    "revealedPasswordType": "text",
+    "samplePassword": "SamplePass#123"
+  },
+  "errors": {
+    "invalidLogin": "Your email, password, IP address or location did not match"
+  },
+  "invalidLogins": [
+    {
+      "title": "unregistered email with wrong password",
+      "email": "qa.nonexistent.user@example.com",
+      "password": "WrongPass#123"
+    },
+    {
+      "title": "malformed email address",
+      "email": "not-an-email",
+      "password": "WrongPass#123"
+    },
+    {
+      "title": "empty password",
+      "email": "qa.nonexistent.user@example.com",
+      "password": ""
+    }
+  ]
+}
