@@ -1,0 +1,7 @@
+{
+  "name": "tp-generator",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/backend/server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

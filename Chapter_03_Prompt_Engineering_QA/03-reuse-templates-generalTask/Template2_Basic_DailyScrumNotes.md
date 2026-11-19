@@ -17,6 +17,7 @@ Meeting: Daily Scrum | Date: [From input or UNKNOWN] | Sprint: [From input or UN
 Attendees: [From input]
 Absent: [From input or UNKNOWN]
 
+
 1. Team Updates:
 | Name | Yesterday | Today | Blockers |
 
@@ -33,6 +34,7 @@ Absent: [From input or UNKNOWN]
 
 5. Action Items:
 | # | Action | Owner | Due Date |
+Yesterday / Today / Blockers / Action items with owners.
 
 6. Open Questions / Needs Clarification: [From notes or "None"]
 
